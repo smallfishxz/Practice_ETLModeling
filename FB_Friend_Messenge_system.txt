@@ -1,0 +1,5 @@
+Messenging System:
+http://www.9lessons.info/2013/05/message-conversation-database-design.html
+
+Friend system:
+http://www.9lessons.info/2014/03/facebook-style-friend-request-system.html
