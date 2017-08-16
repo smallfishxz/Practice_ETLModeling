@@ -1,0 +1,27 @@
+Reference for date modeling: http://www.vertabelo.com/blog/technical-articles/designing-an-online-classifieds-data-model
+
+Question 4: Craigslist
+
+Design the backend for a website like craigslist.com
+
+This question is incredibly flexible. It can be targeted at a fairly junior candidate as well as a senior candidates. It has facets of data-modelling, system design, distributed data systems, transactional system design etc.
+
+This is a very wandering question, and it's designed to exhaust all of the time in the interview, so before I start I like to say something like the following. 
+
+[Regular beginning stuff] "Alright, let's switch gears. So this is a design interview, which is going to be pretty different from your other interviews. We're going to talk about a specific design for a while and go off on lots of tangents. At some point, I'll cut it off fairly abruptly. I'm telling you this now so that you don't feel like you failed to finish or anything, this is supposed to be unfinishable. [Interview stuff] "Alright, as promised we're going to stop abruptly now. This is your opportunity to ask me any questions you have about any aspect of Facebook or what I do [blah blah blah]"
+
+[edit]What to look for in an answer
+
+Asking Questions: The first signal that we can gather is whether the candidate is asking the right questions and is able to understand what he is setting out to build.
+
+Craigslist.com is a fairly well-known entity and the candidate should be able to draw broad design principles from the use-case. e.g. 1) The candidate should be able to surmise that the system he is building involves mostly only requests/classifieds placed into the website. There is no need to track responses on the system 2) The candidate should be able to infer that there is probably a need to track ‘views’ on an ad 3) The candidate should be able to ‘see’ that classified ads follow some kind of classification that drives the UI design.
+
+Basic solution The candidate in their design should allow for a system that allows input of ads. This system should also allow classification of ads based on a (hierarchical?) tag system that can have multiple roots This tag system should be flexible enough to drive the UI and also recall(queriability?) of ads on the UI. How are they going to manage the tags? Meta-data management principles.
+
+The candidate should be able to think through a data-model for representing this data. While working through this data-model, the candidate should be able to also think and address things like how they are going to deal with showing most relevant(regional?) and recent ads to viewers.
+
+Advanced topics: Scale: Scale may involve discussions of sharding data that do not have mutual dependencies into multiple shards. Shards may be regionally separated to offer better response times. Identifying the right sharing policy may be a discussion point. This will also reduce network latencies.
+
+Security: What kind of data-security would we have to enforce? Protection against bots? Metrics: Some discussion on what kind of metrics would ad-owners want to see on their ads, and additional app features to provide better feedback to ad-owners(like?, follow-up button?) etc How are we going to facilitate these metrics? Design such metrics.
+
+Others: if candidates are able to talk about topics that we are less comfortable in, its usually a good sign. We are augmenting our team by hiring such folks. However that itself cannot be a signal. Check their comfort level while talking about such topics and see if they are able to tie back the relevance to the question at hand. Make sure they don’t meander too far off in a tangent.
