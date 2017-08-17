@@ -1,5 +1,9 @@
 ETL / Modeling
 
+
+A good article covering the basic data modeling interview questions:
+http://www.softwaretestinghelp.com/data-modeling-interview-questions-answers/
+
 [edit]On Site
 
 1. Streaming Movie Service ETL Odyssey - Data_Engineering/Interviews/Questions/MoviePlaybackETLOdyssey
