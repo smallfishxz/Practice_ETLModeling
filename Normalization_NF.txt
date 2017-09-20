@@ -1,0 +1,21 @@
+1NF: https://www.tutorialspoint.com/sql/first-normal-form.htm
+
+The First normal form (1NF) sets basic rules for an organized database −
+
+Define the data items required, because they become the columns in a table.
+
+Place the related data items in a table.
+
+Ensure that there are no repeating groups of data.
+
+Ensure that there is a primary key.
+
+
+2NF: https://www.tutorialspoint.com/sql/second-normal-form.htm
+meet all the rules for 1NF and there must be no partial dependences of any of the columns on the primary key. 
+Meaning if composite primary key, all other columns should rely on all columns in composite keys
+
+
+3NF: https://www.tutorialspoint.com/sql/third-normal-form.htm
+It is in second normal form.
+All nonprimary fields are dependent on the primary key.
