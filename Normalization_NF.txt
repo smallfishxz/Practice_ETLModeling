@@ -1,3 +1,6 @@
+Database normalization, or simply normalization, is the process of organizing the columns (attributes) and tables (relations) of a relational database to reduce data redundancy and improve data integrity. Normalization is also the process of simplifying the design of a database so that it achieves the optimal structure.
+
+
 1NF: https://www.tutorialspoint.com/sql/first-normal-form.htm
 
 The First normal form (1NF) sets basic rules for an organized database −
