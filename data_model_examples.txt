@@ -1,0 +1,3 @@
+This is an website containing a lot of industry data modeling examples:
+
+http://www.databaseanswers.org/data_models/
