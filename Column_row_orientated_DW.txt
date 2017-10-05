@@ -1,0 +1,6 @@
+column/row oriented data warehouse:
+https://en.wikipedia.org/wiki/Column-oriented_DBMS
+
+Vertica project:
+https://my.vertica.com/get-started-vertica/creating-tables-projections/#Types
+
